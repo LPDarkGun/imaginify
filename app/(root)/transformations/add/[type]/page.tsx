@@ -25,10 +25,7 @@ const AddTransformationTypePage = async ({ params: { type } }: SearchParamProps)
         title={transformation.title}
         subtitle={transformation.subTitle}
       />
-      <TransformationForm 
-        // type={transformation.type as TransformationTypeKey}
-        // creditBalance={user.creditBalance}
-      />
+      Hi
     </>
   )
 }
